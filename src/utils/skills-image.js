@@ -73,7 +73,7 @@ import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 import nodeJs from '../assets/svg/skills/nodeJs.svg';
-import nestJs from '../assets/svg/skills/nestJs.svg';
+import nestJs from '../assets/svg/skills/nestJS.svg';
 
 import canva from '../assets/svg/skills/canva.svg'
 
