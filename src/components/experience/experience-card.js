@@ -21,8 +21,8 @@ function ExperienceCard({ id, company, jobtitle, startYear, endYear }) {
                 </div>
                 <div className={styles.experienceDetails}>
                     <h6 style={{ color: theme.primary }}>{startYear}-{endYear}</h6>
-                    <h4 style={{ color: theme.tertiary }}>{jobtitle}</h4>
-                    <h5 style={{ color: theme.tertiary }}>{company}</h5>
+                    <h4 style={{ color: theme.type === 'light' ? theme.secondary : theme.tertiary }}>{jobtitle}</h4>
+                    <h5 style={{ color: theme.type === 'light' ? theme.secondary : theme.tertiary }}>{company}</h5>
                 </div>
             </div>
         </Fade>
