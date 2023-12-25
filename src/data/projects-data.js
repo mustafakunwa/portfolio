@@ -1,13 +1,9 @@
 import curofone from '../assets/svg/projects/curofone.png'
-import five from '../assets/svg/projects/five.svg'
-import four from '../assets/svg/projects/four.svg'
-import one from '../assets/svg/projects/one.svg'
 import checkout from '../assets/svg/projects/checkout.svg'
-import three from '../assets/svg/projects/three.svg'
-import two from '../assets/svg/projects/two.svg'
 import core from '../assets/svg/projects/core.svg'
 import runnerspot from '../assets/svg/projects/runnerspot.png'
-
+import getSuper from '../assets/svg/projects/getSuper.svg'
+import numou from '../assets/svg/projects/numou.svg';
 
 export const projectsData = [
     {
@@ -23,7 +19,7 @@ export const projectsData = [
         id: 2,
         projectName: 'Corebuilds',
         projectDesc: 'The Core builds subscription-based delivery program is built around a whole-food regimen that includes fresh, nutrient-dense, and delicious ingredients, catering to the needs of each and every individual.',
-        tags: ['React', 'Python', 'SCSS'],
+        tags: ['React', 'Python', 'SCSS', 'ReactNative'],
         code: '',
         demo: 'https://corebuilds.co/',
         image: core
@@ -44,6 +40,24 @@ export const projectsData = [
         code: '',
         demo: 'https://app.curofone.com/',
         image: curofone
-    }
+    },
+    {
+        id: 5,
+        projectName: 'Numou Life',
+        projectDesc: 'A HEALTHY FOOD SUBSCRIPTION BOX THAT CATERS TO ALL YOUR NEEDS',
+        tags: ['React', 'Python', 'SCSS', 'ReactNative'],
+        code: '',
+        demo: 'https://numou.life/',
+        image: numou
+    },
+    // {
+    //     id: 5,
+    //     projectName: 'Get Super',
+    //     projectDesc: 'Transform your wellness journey with GetSuper, the ultimate fitness app. Streamline your nutrition and fitness goals, effortlessly scan barcodes, log workouts, and stay on track with personalized insights for a healthier, fitter you.',
+    //     tags: ['React', 'SCSS', 'Redux'],
+    //     code: '',
+    //     demo: 'https://www.getsuper.com/',
+    //     image: getSuper
+    // }
 ]
 

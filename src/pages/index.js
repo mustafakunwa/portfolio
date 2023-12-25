@@ -5,11 +5,15 @@ import {
 } from '../components';
 import BackToTop from '../components/back-to-top/back-to-top';
 import ChangeTheme from '../components/change-theme/change-theme';
+import Head from 'next/head'
 
 function HomePage() {
 
   return (
     <>
+      <Head>
+        <title>Mustafa Portfolio</title>
+      </Head>
       <BackToTop />
       <ChangeTheme />
       <Navbar />
