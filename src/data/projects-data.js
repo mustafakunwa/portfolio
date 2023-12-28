@@ -4,6 +4,7 @@ import core from '../assets/svg/projects/core.svg'
 import runnerspot from '../assets/svg/projects/runnerspot.png'
 import getSuper from '../assets/svg/projects/getSuper.svg'
 import numou from '../assets/svg/projects/numou.svg';
+import erp from '../assets/svg/projects/erp-icon.svg';
 
 export const projectsData = [
     {
@@ -58,6 +59,15 @@ export const projectsData = [
         code: '',
         demo: '',
         image: core
+    },
+    {
+        id: 7,
+        projectName: 'ERP',
+        projectDesc: 'This project is about ERP, ERP finance modules offer many of the same features as accounting software, such as tools for accounts receivable and payable, general ledger, expense management, reporting and analysis, and more.',
+        tags: ['Angular', 'SCSS', 'Material Ui'],
+        code: '',
+        demo: 'https://mlco.in/',
+        image: erp
     }
     // {
     //     id: 5,
