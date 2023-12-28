@@ -50,6 +50,15 @@ export const projectsData = [
         demo: 'https://numou.life/',
         image: numou
     },
+    {
+        id: 6,
+        projectName: 'Admin Dashboard',
+        projectDesc: 'This project is about admin dashboard, where admin can manage all the data.',
+        tags: ['React', 'SCSS', 'Redux'],
+        code: '',
+        demo: '',
+        image: core
+    }
     // {
     //     id: 5,
     //     projectName: 'Get Super',
