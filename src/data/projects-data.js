@@ -68,15 +68,24 @@ export const projectsData = [
         code: '',
         demo: 'https://mlco.in/',
         image: erp
+    },
+    {
+        id: 9,
+        projectName: 'Get Super',
+        projectDesc: 'Transform your wellness journey with GetSuper, the ultimate fitness app. Streamline your nutrition and fitness goals, effortlessly scan barcodes, log workouts, and stay on track with personalized insights for a healthier, fitter you.',
+        tags: ['React', 'SCSS', 'Redux'],
+        code: '',
+        demo: 'https://www.getsuper.com/',
+        image: getSuper
+    },
+    {
+        id: 10,
+        projectName: 'Get Super App',
+        projectDesc: 'Transform your wellness journey with GetSuper, the ultimate fitness app. Streamline your nutrition and fitness goals, effortlessly scan barcodes, log workouts, and stay on track with personalized insights for a healthier, fitter you.',
+        tags: ['React Native', 'Redux'],
+        code: '',
+        demo: 'https://apps.apple.com/kw/app/get-super/id1619953566',
+        image: getSuper
     }
-    // {
-    //     id: 5,
-    //     projectName: 'Get Super',
-    //     projectDesc: 'Transform your wellness journey with GetSuper, the ultimate fitness app. Streamline your nutrition and fitness goals, effortlessly scan barcodes, log workouts, and stay on track with personalized insights for a healthier, fitter you.',
-    //     tags: ['React', 'SCSS', 'Redux'],
-    //     code: '',
-    //     demo: 'https://www.getsuper.com/',
-    //     image: getSuper
-    // }
 ]
 
