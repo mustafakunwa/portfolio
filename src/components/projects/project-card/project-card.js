@@ -24,6 +24,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     </h2>
                     <Image src={image ? image : placeholder} alt={name} />
                     <div className={styles.projectShowcaseBtn}>
+                        {demo &&
                         <a
                             href={demo}
                             target='_blank'
@@ -44,26 +45,29 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 style={{ fill: theme.tertiary }}
                             />
                         </a>
-                        <a
-                            href={code}
-                            target='_blank'
-                            rel='noreferrer'
-                            className={`flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2   transition hover:scale-[1.1] ${theme.type === 'light' ? "border-[#000000]" : "border-[#EFF3F4]"}`}
-                            aria-labelledby={`${name
-                                .replace(' ', '-')
-                                .toLowerCase()} ${name
+}
+                        {code &&
+                            <a
+                                href={code}
+                                target='_blank'
+                                rel='noreferrer'
+                                className={`flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2   transition hover:scale-[1.1] ${theme.type === 'light' ? "border-[#000000]" : "border-[#EFF3F4]"}`}
+                                aria-labelledby={`${name
                                     .replace(' ', '-')
-                                    .toLowerCase()}-code`}
-                        >
-                            <FaCode
-                                id={`${name
-                                    .replace(' ', '-')
-                                    .toLowerCase()}-code`}
-                                className="text-[1.1rem] transition"
-                                aria-label='Code'
-                                style={{ fill: theme.tertiary }}
-                            />
-                        </a>
+                                    .toLowerCase()} ${name
+                                        .replace(' ', '-')
+                                        .toLowerCase()}-code`}
+                            >
+                                <FaCode
+                                    id={`${name
+                                        .replace(' ', '-')
+                                        .toLowerCase()}-code`}
+                                    className="text-[1.1rem] transition"
+                                    aria-label='Code'
+                                    style={{ fill: theme.tertiary }}
+                                />
+                            </a>
+                        }
                     </div>
                 </div>
                 <p
